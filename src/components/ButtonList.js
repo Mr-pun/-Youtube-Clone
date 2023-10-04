@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const ButtonList = () => {
-  return (
-    <div>ButtonList</div>
-  )
-}
+  return <div>ButtonList</div>;
+};
 
-export default ButtonList
+export default ButtonList;
