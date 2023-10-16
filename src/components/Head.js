@@ -39,7 +39,7 @@ key - when i write (ip)
 */
 
   const getSearchSuggestions = async () => {
-    console.log("API CALL" + searchQuery);
+    // console.log("API CALL" + searchQuery);
     const data = await fetch(Youtube_Search_Api + searchQuery);
     const json = await data.json();
     // console.log(json[1]);
